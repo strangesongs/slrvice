@@ -1,5 +1,26 @@
 # slrvice
 
+Rough data structure:
+```
+{
+  "rollOfFilm": {
+    "brand:": {},
+    "type": {},
+    "dateStarted": {},
+    "dateCompleted": {},
+    "exposureCount": {},
+    "exposures": {
+      "shotNumber": {},
+      "iso": {},
+      "fStop": {},
+      "shutterSpeed": {},
+      "notes": {}
+    }
+  }
+}
+```
+
+
 ## Project setup
 ```
 npm install
