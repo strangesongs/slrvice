@@ -2,10 +2,14 @@
 node_modules
 /dist
 
+# locally, automatically manufactured JS file versions of TS files on compilation. This may be too broad or have unintended consequences, but I'm gonna try it and see where it takes us.
+*.js.map
+*.js
 
 # local env files
 .env.local
 .env.*.local
+package-lock.json
 
 # Log files
 npm-debug.log*
